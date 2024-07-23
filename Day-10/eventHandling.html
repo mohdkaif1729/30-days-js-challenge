@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom Manipulation</title>
+</head>
+<body class="light" style="background-color: #313131; color: #ffffff;font-size: 20px;">
+
+
+  <!-- Elements -->
+  <div>
+    <p class="change-content key-up">GitHub Repositories Every Software Engineer Should Know</p>
+    <button style="margin-bottom: 10px;" class="change-content-btn">Change Above</button>
+  </div>
+
+  <img class="coding-image" width="300px" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=pexels-kevin-ku-92347-577585.jpg&fm=jpg" alt="coding-image">
+
+  <div class="background-color" style="background-color: blue;">
+    Background color change
+  </div>
+  
+  <input type="text" class="key-down-input">
+
+  <form class="info">
+    <div>
+      <label for="username">
+        Name:
+      </label>
+      <input type="text" id="username" class="name">
+    </div>
+    <div>
+      <label for="email">
+        Email:
+      </label>
+      <input type="email" id="email" class="email">
+    </div>
+    <div>
+      <button type="submit" class="submit-btn">Sumit</button>
+    </div>
+  </form>
+
+
+  <div class="dropdown">
+    <select name="car" id="car">
+      <option value="--select--" selected>---select----</option>
+      <option value="Rolls Royce">Rolls Royce</option>
+      <option value="Range Rover">Range Rover</option>
+      <option value="Aston Martin">Aston Martin</option>
+      <option value="Bugatti">Bugatti</option>
+    </select>
+  </div>
+  
+  <div style="margin-top: 50px;" class="click-para">
+    click me to add more list element
+    <ul id="programming-languages">
+      <li class="programming">C</li>
+      <li class="programming">C++</li>
+      <li class="programming">Java</li>
+      <li class="programming">Javascript</li>
+    </ul>
+  </div>
+
+  
+
+</body>
+<script src="./eventHandling.js"></script>
+</html>
